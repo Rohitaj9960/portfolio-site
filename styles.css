@@ -3,8 +3,9 @@ body{
     font-family: 'Castoro', serif; 
 }
 :root{
-    --primary-color:#34D399
-
+    --primary-color:#34D399;
+    --off-white:#E5E7EB;
+    --dark-gray:#6B7280;
 }
 hr{
     margin: 2rem 0rem;
@@ -67,4 +68,36 @@ hr{
 
 .navigation .link-active{
     font-weight: bold;
+}
+
+/* header */
+.hero{
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero .hero-img{
+    max-width:350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    color: var(--dark-gray);
+    padding-top: 1rem;
+}
+
+.hero .hero-heading .heading-inverted{
+    color:var(--primary-color);
+}
+/* section  */
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
 }
