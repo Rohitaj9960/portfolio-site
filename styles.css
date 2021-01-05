@@ -46,13 +46,14 @@ hr{
 
 .list-item-inline{
     display: inline;
-    padding: 0rem 0.5rem;
+    padding-top: 0rem 0.5rem;
 }
 /* navigation  */
 
 .navigation{
     background-color: var(--primary-color);
-    border-bottom-left-radius: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
     color: white;
 }
 .navigation .nav-brand{
@@ -60,7 +61,6 @@ hr{
 }
 .navigation .nav-pills{
     text-align: right;
-    padding: 1rem   ;
 }
 .navigation .link{
     color:white;
@@ -100,4 +100,21 @@ hr{
 
 .ow{
     background-color: var(--off-white);
+}
+
+/* footer  */
+.footer{
+    background-color:var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
