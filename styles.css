@@ -99,6 +99,9 @@ hr{
     display: block;
     margin: auto;
 }
+.section .img-name{
+    text-align: center;
+}
 .section h1{
     text-align: center;
 }
