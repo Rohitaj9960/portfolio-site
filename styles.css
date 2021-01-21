@@ -94,6 +94,11 @@ hr{
 .section{
     padding: 2rem;
 }
+.section .img{
+    max-width: 25%;
+    display: block;
+    margin: auto;
+}
 .section h1{
     text-align: center;
 }
